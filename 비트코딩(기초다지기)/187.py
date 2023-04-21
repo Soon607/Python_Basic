@@ -1,0 +1,6 @@
+# 1단부터9단까지 구구단 출력
+
+for i in range(1,10):
+    for j in range(1,10):
+        print('{}X{}={}'.format(i,j,i*j),end='\t')
+    print()

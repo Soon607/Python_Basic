@@ -3,7 +3,7 @@ n,m=int(n),int(m)
 array=[[0]*m for i in range(n)]
 k=1
 
-for num in range(n+m-1,-1,-1):
+for num in range(n+m,-1,-1):
     i=n-1
     j=m-1
     a=array[i][j]

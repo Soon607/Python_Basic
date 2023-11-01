@@ -19,4 +19,4 @@ for i in range(n):
     d[a[i]]+=1
     
 for i in range(1,24):
-    print('불려진 횟수:',d[i],end=' ')
+    print(d[i],end=' ')
